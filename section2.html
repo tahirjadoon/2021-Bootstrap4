@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<!-- go to https://getbootstrap.com/ -->
+		
+		<!-- place bootstrap css here -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		
+		<!-- our custom css -->
+		<link rel="stylesheet" href="section2.css">
+		
+		<title>Bootstrap 4 recipes</title>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col wf">Carousel</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col wf">Service 1</div>
+				<div class="col wf">Service 2</div>
+				<div class="col wf">Service 3</div>
+			</div>
+			<div class="row">
+				<div class="col wf">Product 1</div>
+				<div class="col-6 wf">Product 2</div>
+				<div class="col wf">Product 3</div>
+			</div>
+			
+			<hr>
+			<p>Utilizing the Flexbox grid</p>
+			<div class="row">
+				<div class="col ns wf">Product 1</div>
+				<div class="col-6 ns2 wf">Product 2<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus in ex sed luctus. Curabitur non libero sed leo bibendum mollis id eget dui. Donec at arcu 
+					felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque suscipit, orci et rhoncus vulputate, 
+					urna neque dapibus elit, et imperdiet ante sem at dui. Cras vitae scelerisque dolor, vel aliquam ligula. Nam vel felis vitae erat pharetra pellentesque sed 
+					ut quam. Nam dictum eget tortor efficitur lacinia. Ut facilisis iaculis est. Curabitur viverra euismod ante, sit amet tincidunt tellus posuere vel. Nunc vestibulum 
+					ex sit amet eros posuere, sed laoreet libero fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet quam nec tellus eleifend laoreet.					
+				</div>
+				<div class="col ns wf">Product 3</div>
+			</div>
+			<hr>
+			<p>Creating equal height columns</p>
+			<hr>
+			<div class="row">
+				<div class="col wf">Girl 1</div>
+				<div class="col wf">Guy 2</div>
+				<div class="col wf">Girl 3</div>
+				<div class="col wf">Guy 4</div>
+				<div class="col wf">Girl 5</div>
+				<div class="col wf">Guy 6</div>
+				<div class="col wf">Girl 7</div>
+			</div>
+			<hr>
+			<p>justify-content-md-center</p>
+			<div class="row justify-content-md-center">
+				<div class="col-lg-2 wf">Empty</div>
+				<div class="col col-12 col-md-auto wf">Contact Us</div>
+				<div class="col-lg-2 wf">Empty</div>
+			</div>
+			<hr>
+			<p>Hiding and showing column</p>
+			<div class="row">
+				<div class="col wf">Project 1</div>
+				<div class="col wf">Prpject 2</div>
+				<div class="col wf">Project 3</div>
+				<div class="w-100 d-md-none ns2"></div>
+				<div class="col wf">Project 4</div>
+				<div class="col wf">Project 5</div>
+				<div class="col wf">Project 6</div>
+			</div>
+			<hr>
+			<p>Hiding and showing column</p>
+			<div class="row">
+				<div class="col wf">Project 1</div>
+				<div class="col wf">Prpject 2</div>
+				<div class="col wf">Project 3</div>
+				<div class="w-100 hidden-md-up ns2"></div>
+				<div class="col wf">Project 4</div>
+				<div class="col wf">Project 5</div>
+				<div class="col wf">Project 6</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm wf">Testimonial 1</div>
+				<div class="col-sm wf">Testimonial 2</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-6 col-md-4 wf">Price 1</div>
+				<div class="col-6 col-md-4 wf">Price 2</div>
+				<div class="col-6 col-md-4 wf">Price 3</div>
+			</div>
+			<hr>
+			<p>offset</p>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-4 wf">Guy 2</div>
+				<div class="col-4 wf">Guy 4</div>
+				<div class="col-4"></div>
+				<div class="col-4 wf">Guy 6</div>
+				
+			</div>
+			<hr>
+			<p>Orderig and nesting columns</p>
+			<div class="row">
+				<div class="col order-12 wf">Service 1</div>
+				<div class="col order-1 wf">Service 2
+					<div class="row">
+						<div class="col-8 order-2 ns">A</div>
+						<div class="col-4 order-1 ns2">B</div>
+					</div>
+				</div>
+				<div class="col wf">Service 3</div>
+			</div>
+			<hr>
+			<p>columns</p>
+			<div class="row">
+				<div class="col-4 wf">Col 4 1</div>
+				<div class="col-4 wf">Col 4 2</div>
+				<div class="col-4 wf">Col 4 3</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 wf">SM 4 1</div>
+				<div class="col-sm-4 wf">SM 4 2</div>
+				<div class="col-sm-4 wf">SM 4 3</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 wf">LG 4 1</div>
+				<div class="col-lg-4 wf">LG 4 2</div>
+				<div class="col-lg-4 wf">LG 4 3</div>
+			</div>
+			
+		</div>
+		
+	
+		<!-- bootstrap js etc keep at the end -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	</body>
+</html>

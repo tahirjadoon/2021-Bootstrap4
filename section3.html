@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<!-- go to https://getbootstrap.com/ -->
+		
+		<!-- place bootstrap css here -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		
+		<!-- our custom css -->
+		<link rel="stylesheet" href="section3.css">
+		
+		<title>Bootstrap 4 recipes</title>
+	</head>
+	
+	<body>
+	
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+			<div class="container">
+			  <a class="navbar-brand" href="#"><img src="images/logo.png" height="50px"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				  </li>
+				</ul>
+				<form class="form-inline mt-2 mt-md-0">
+				  <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			  </div>
+			</div>
+		</nav>
+	
+		<div class="container mt-1">
+			<div class="row wf">
+				<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_css_text.asp" target="_blank">w3schools bootstrap_ref_css_text</a>&nbsp;|&nbsp;
+				<a href="https://color.adobe.com/create/color-wheel/" target="_blank">Adobe Colors</a>&nbsp;|&nbsp;
+				<a href="https://material.io/collections/color/" target="_blank">Material Colors</a>
+			</div>
+			<div class="row mt-1 wf">
+				<div class="col-2 bg-dark text-white">Color</div>
+				<div class="col-5 bg-dark text-white text-capitalize">Each word changed to upper case (-dark)</div>
+				<div class="col-5 bg-dark text-white">Companies</div>
+			</div>
+			<div class="row mt-1 wf">
+				<div class="col-2 bg-danger text-uppercase">Excitement</div>
+				<div class="col-5 text-danger text-capitalize">danger - passion - hot (-danger)</div>
+				<div class="col-5">Coca cola - Canon - KFC</div>
+			</div>
+			<div class="row mt-1 wf">
+				<div class="col-2 bg-warning text-uppercase">Optimism</div>
+				<div class="col-5 text-warning text-capitalize">sun - warning - fast - friendly (-warning)</div>
+				<div class="col-5">BestBuy - DHL - McDonalds</div>
+			</div>
+			<div class="row mt-1 wf">
+				<div class="col-2 bg-success text-uppercase">Peaceful</div>
+				<div class="col-5 text-success text-capitalize">growth - nature - success (-success)</div>
+				<div class="col-5">Start bucks - Calsberg - Land Rover</div>
+			</div>
+			<div class="row mt-1 wf">
+				<div class="col-2 bg-info text-uppercase">Creative</div>
+				<div class="col-5 text-info text-capitalize">wise - power (-info)</div>
+				<div class="col-5">Taco Bell - LA Lakers</div>
+			</div>
+			<div class="row mt-1 wf">
+				<div class="col-2 bg-primary text-uppercase">Trust</div>
+				<div class="col-5 text-primary text-capitalize">dependable - cold - calming - primary (-primary)</div>
+				<div class="col-5">Banks - Dell - Ford</div>
+			</div>
+			<div class="row mt-1 wf">
+				<div class="col-2 bg-secondary text-uppercase">Balance</div>
+				<div class="col-5 text-secondary text-capitalize">calm - natural - clean (-secondary)</div>
+				<div class="col-5">Apple - Wikipedia - Nike</div>
+			</div>
+		</div>
+		
+		<hr>
+		
+		<div class="container">
+			<div class="row even">
+				<div class="col wf"><h2>Service 1</h2></div>
+				<div class="col wf"><h2>Service 2</h2></div>
+				<div class="col wf"><h2>Service 3</h2></div>
+			</div>
+			<hr>
+			<p>class: lead, display | element: del, small  </p>
+			<div class="row odd">
+				<div class="col wf">
+					<h2 class="display-4">Product 1</h2>
+					<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis magna at sem congue malesuada. Aenean venenatis, nibh sit amet ultrices maximus, diam mi accumsan eros, a gravida nisl elit nec tortor.
+					Nam suscipit, est sed aliquet pharetra, turpis dui facilisis velit, sit amet fermentum enim diam quis purus. Praesent erat lectus, tristique quis lacinia sed, feugiat eget elit. 
+					<del>Aliquam posuere pretium elementum. Vestibulum facilisis augue a ex semper tincidunt. Aenean sodales porttitor neque, eu faucibus ex consequat eget.</del> 
+					Vivamus sed elementum lacus. Praesent felis nulla, auctor eu felis in, semper condimentum dui. Sed accumsan a ipsum ac mattis. Integer faucibus blandit vehicula. Suspendisse convallis tincidunt odio vel dignissim. Aliquam porttitor consectetur nulla vitae eleifend. Sed convallis lacus vitae nibh volutpat pulvinar. Aenean a tincidunt risus, sit amet porttitor diam. In hac habitasse platea dictumst.
+					</p>
+				</div>
+				<div class="col-6 wf">
+					<h2 class="display-3">Product 2</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis magna at sem congue malesuada. Aenean venenatis, nibh sit amet ultrices maximus, diam mi accumsan eros, a gravida nisl elit nec tortor. 
+					</p>
+					<p>Nam suscipit, est sed aliquet pharetra, turpis dui facilisis velit, sit amet fermentum enim diam quis purus. 
+					<small>Praesent erat lectus, tristique quis lacinia sed, feugiat eget elit. Aliquam posuere pretium elementum. Vestibulum facilisis augue a ex semper tincidunt. Aenean sodales porttitor neque, eu faucibus ex consequat eget. 
+					Vivamus sed elementum lacus. Praesent felis nulla, auctor eu felis in, semper condimentum dui. Sed accumsan a ipsum ac mattis. Integer faucibus blandit vehicula. Suspendisse convallis tincidunt odio vel dignissim. Aliquam porttitor consectetur nulla vitae eleifend. Sed convallis lacus vitae nibh volutpat pulvinar. Aenean a tincidunt risus, sit amet porttitor diam. In hac habitasse platea dictumst.
+					</small></p>
+				</div>
+				<div class="col wf">
+					<h2 class="display-4">Product 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis magna at sem congue malesuada. Aenean venenatis, nibh sit amet ultrices maximus, diam mi accumsan eros, a gravida nisl elit nec tortor. Nam suscipit, est sed aliquet pharetra, turpis dui facilisis velit, sit amet fermentum enim diam quis purus. Praesent erat lectus, tristique quis lacinia sed, feugiat eget elit. Aliquam posuere pretium elementum. Vestibulum facilisis augue a ex semper tincidunt. Aenean sodales porttitor neque, eu faucibus ex consequat eget. Vivamus sed elementum lacus. Praesent felis nulla, auctor eu felis in, semper condimentum dui. Sed accumsan a ipsum ac mattis. Integer faucibus blandit vehicula. Suspendisse convallis tincidunt odio vel dignissim. Aliquam porttitor consectetur nulla vitae eleifend. Sed convallis lacus vitae nibh volutpat pulvinar. Aenean a tincidunt risus, sit amet porttitor diam. In hac habitasse platea dictumst.</p>
+				</div>
+			</div>
+			<hr>
+			<p>blockquote and footer</p>
+			<div class="row light align-items-center" id="testimonials">
+				<div class="col-sm wf">
+					<blockquote class="blockquote">
+					  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+					</blockquote>
+				</div>
+				<div class="col-sm wf">
+					<blockquote class="blockquote text-right">
+					  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+					</blockquote>
+				</div>
+			</div>
+			<hr>
+			<p>form and justify-content-md-center</p>
+			<div class="row justify-content-md-center odd">
+				<div class="col-lg-12 wf">
+				</div>
+				<div class="col col-12 col-md-auto wf">
+					<form method="post">
+						<h2>Contact Us</h2>
+						<label>Name</label>
+						<input type="text" class="form-control">
+						<label>Email</label>
+						<input type="text" class="form-control">
+						<label>Message</label>
+						<textarea class="form-control" id="message" rows="3"></textarea>
+						<input type="submit" value="send" class="btn btn-secondary">
+					</form>
+				</div>
+				<div class="col-lg-12 wf">
+				</div>
+			</div>
+			<hr>
+			<p>form with input group</p>
+			<div class="row even">
+				<div class="col-md-4 wf">
+				</div>
+				<div class="col-md-4  wf">
+					<form method="post">
+						<h2>Contact Us</h2>
+						<div class="input-group mb-4">
+							<span class="input-group-addon">Name</span>
+							<input type="text" class="form-control">
+						</div>
+						<div class="input-group mb-4">
+							<span class="input-group-addon">Email</span>
+							<input type="text" class="form-control">
+						</div>
+						<label>Message</label>
+						<textarea class="form-control mb-4" id="message" rows="3"></textarea>
+						<input type="submit" value="send" class="btn btn-secondary">
+					</form>
+				</div>
+				<div class="col-md-4 wf">
+				</div>
+			</div>
+			<hr>
+			<p>CARD use</p>
+			<div class="row odd">
+				<div class="col-md-4 wf">
+					<h2>Price 1</h2>
+					<div class="card">
+						<div class="card-heading">FREE</div>
+						<div class="card-body">
+							$0
+							<ul>
+								<li>Personal Use</li>
+								<li>10 Projects</li>
+								<li>Limited Support</li>
+							</ul>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn">SIGNUP!</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wf">
+					<h2>Price 2</h2>
+					<div class="card">
+						<div class="card-heading">
+							<h4 class="text-center">DEVELOPER</h4>
+						</div>
+						<div class="card-body text-center">
+							<p class="lead"><strong>$10 / month</strong></p>
+							<ul class="list-group text-center">
+								<li class="list-group-item">Busiesss Use</li>
+								<li class="list-group-item">100 Projects</li>
+								<li class="list-group-item">24/7 Support</li>
+							</ul>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-danger btn-block">BUY NOW!</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 wf">
+					<h2>Price 3</h2>
+					<div class="card">
+						<div class="card-heading">
+							<h4 class="text-center">PROFESSIONAL</h4>
+						</div>
+						<div class="card-body text-center">
+							<p class="lead"><strong>$100 / month</strong></p>
+							<ul class="list-group list-group-flush text-center">
+								<li class="list-group-item list-group-item-success">Busiesss Use</li>
+								<li class="list-group-item list-group-item-success">Unlimited Projects</li>
+								<li class="list-group-item list-group-item-success">24/7 Support</li>
+							</ul>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-success btn-block">BUY NOW!</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<hr>
+			<p>Accordian</p>
+			<div class="row even">
+				<div class="col wf">
+					<div class="accordion" id="accordionExample">
+					  <div class="card">
+						<div class="card-header" id="headingOne">
+						  <h5 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							  Project #1
+							</button>
+						  </h5>
+						</div>
+
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+						  <div class="card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						  </div>
+						</div>
+					  </div>
+					  <div class="card">
+						<div class="card-header" id="headingTwo">
+						  <h5 class="mb-0">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							  Project #2
+							</button>
+						  </h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						  <div class="card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						  </div>
+						</div>
+					  </div>
+					  <div class="card">
+						<div class="card-header" id="headingThree">
+						  <h5 class="mb-0">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							  Project #3
+							</button>
+						  </h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+						  <div class="card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						  </div>
+						</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="container-fluid dark">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<address>
+								<strong><A href="#">Thrandur</A></strong><br />
+								21 ABC Road<br />
+								Ontario<br />
+								Brampton<br />
+								abc@abc.com
+							</address>
+						</div>
+						<div class="col">
+							<ul class="list-unstyled">
+								<li><a href="#services">Services</a></li>
+								<li><a href="#products">Products</a></li>
+								<li><a href="#team">Team</a></li>
+								<li><a href="#projects">Projects</a></li>
+							</ul>
+						</div>
+						<div class="col">
+							<ul class="list-unstyled">
+								<li><a href="#">Privacy</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<!-- bootstrap js etc keep at the end -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	</body>
+</html>
